@@ -11,6 +11,8 @@
     height:400px;
     background:#eee;
     margin:auto;
+    box-shadow: 5px 5px 20px 1px rgba(199,191,199,1);
+
 }
 .section1{
     background:white;
@@ -20,6 +22,9 @@
     border-radius: 5px;
     padding:3px;
     margin:2px;
+}
+.section1 i{
+    padding:4px;
 }
 .pagination{
     display:flex;
@@ -48,8 +53,12 @@
     margin:auto;
     padding:10px 20px;
     margin-bottom: 3px;
-    display:inline-block;
+    cursor: move;
     
+}
+.edit{
+    overflow-wrap:break-word;
+
 }
 input[type='checkbox'] {
     width:20px;
@@ -66,6 +75,9 @@ input[type='checkbox'] {
     padding: 5px 8px;
     text-align: center;
     margin-left: 5px;
+  }
+  .badge i{
+    padding-right:4px;
   }
   .section3 button{
     background:	hsl(210, 100%, 50%);
@@ -97,8 +109,9 @@ input[type='checkbox'] {
     display:block;
     cursor:pointer;
 }
-.span-focus {
+.span:focus {
     background-color: #fff;
     border-color:#888;
-
+    border-radius: 3px;
+    border: 1px solid transparent;
 }
