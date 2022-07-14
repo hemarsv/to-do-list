@@ -138,6 +138,13 @@ input[type='checkbox'] {
     }
     
 }
-*{
-    -webkit-user-modify:read-write;
+
+* {
+    -webkit-user-select: none;
+    user-select: none;
+}
+span,
+[contenteditable] {
+    -webkit-user-select: text;
+    user-select: text;
 }
