@@ -115,3 +115,26 @@ input[type='checkbox'] {
     border-radius: 3px;
     border: 1px solid transparent;
 }
+@media only screen and (max-width: 768px){
+    .container{
+        width:400px;
+        height:300px;
+    }
+    .badge{
+        font-size:8px;
+        padding:3px 6px;
+        margin-right:20px;
+    }
+    input[type='checkbox']{
+        width:15px;
+        height:15px;
+    }
+    .edit{
+        white-space: pre;
+    }
+    .section3 button{
+        padding:8px 12px;
+        font-size: 14px;
+    }
+    
+}
