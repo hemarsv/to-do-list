@@ -139,12 +139,6 @@ input[type='checkbox'] {
     
 }
 
-* {
-    -webkit-user-select: none;
-    user-select: none;
-}
-span,
 [contenteditable] {
-    -webkit-user-select: text;
-    user-select: text;
+    -webkit-user-modify:read-write;
 }
